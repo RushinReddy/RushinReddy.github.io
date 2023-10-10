@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Document List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        object {
+            width: 100%;
+            height: 400px; /* Adjust the height as needed */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PDF Document List</h1>
+    </header>
+    <div class="container">
+        <ul>
+            <li>
+                <object data="document1.pdf" type="application/pdf">
+                    <p>Document 1 - <a href="document1.pdf" target="_blank">Open PDF</a></p>
+                </object>
+            </li>
+            <li>
+                <object data="document2.pdf" type="application/pdf">
+                    <p>Document 2 - <a href="document2.pdf" target="_blank">Open PDF</a></p>
+                </object>
+            </li>
+            <li>
+                <object data="document3.pdf" type="application/pdf">
+                    <p>Document 3 - <a href="document3.pdf" target="_blank">Open PDF</a></p>
+                </object>
+            </li>
+            <!-- Add more document items as needed -->
+        </ul>
+    </div>
+</body>
+</html>
