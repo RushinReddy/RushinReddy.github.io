@@ -34,7 +34,7 @@
 
         li {
             border-bottom: 1px solid #ddd;
-            padding: 20px 0;
+            padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -49,118 +49,163 @@
         h2 {
             margin-bottom: 10px;
         }
+
+        #table-of-contents {
+        background-color: #f0f0f0;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #table-of-contents ul {
+        padding: 0;
+        text-align: left;
+        margin: 0; /* Add this line to remove the default margin */
+    }
+
+    #table-of-contents li {
+        margin: 0;
+        padding: 5px 0; /* Reduce padding for a more compact look */
+        text-align: left;
+    }
+        
     </style>
 </head>
 <body>
     <header>
         <h1>Rushin Reddy Ramesh's Supporting Documents</h1>
     </header>
+    
+    
     <div class="container">
-        phone: +91 8971447721<br>
-        email: rushinreddy@gmail.com<br>
-        address: 762, 1st Main, Indiranagar, 1st Stage, Bangalore 560038, KA, India<br>
+        <!-- Add links to phone number and email -->
+        <p>Phone: <a href="tel:+918971447721">+91 8971447721</a><br>
+        Email: <a href="mailto:rushinreddy@gmail.com">rushinreddy@gmail.com</a><br>
+        GitHub: <a href="https://github.com/RushinReddy" target="_blank">https://github.com/RushinReddy</a></p>
     </div>
+    
+    <div id="table-of-contents">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#cv">Curriculum Vitae</a></li>
+            <li><a href="#sap-labs">Internship Certificate - SAP Labs</a></li>
+            <li><a href="#dalvkot-infotech">Internship Certificate - DALVKOT InfoTech</a></li>
+            <li><a href="#rank-certificate">Rank Certificate - MIT, Manipal</a></li>
+            <li><a href="#royale-concorde-international-school">Bonafide Certificate - Royale Concorde International School</a></li>
+            <li><a href="#cbse-top-01-percent">CBSE Certificate - top 0.1 percent</a></li>
+            <li><a href="#sahodaya">Sahodaya Certificate - Outstanding Academic Performance</a></li>
+            <li><a href="#official-letter-of-scholarship">Official Letter of Full Scholarship</a></li>
+            <li><a href="#scholarship-email">Scholarship Email</a></li>
+            <li><a href="#aiesec">Volunteer Certificate - AIESEC</a></li>
+            <li><a href="#sree-bhavani">Volunteer Certificate - Sree Bhavani</a></li>
+            <li><a href="#manipal-institute-of-technology">Study Certificate - Manipal Institute of Technology</a></li>
+            <li><a href="#chaitanya-techno-school">Study Certificate - Chaitanya Techno School</a></li>
+            <li><a href="#rcis-study-certificate">Study Certificate - Royale Concorde International School</a></li>
+        </ul>
+    </div>
+
     <div class="container">
         <ul>
-            <li>
+            <li id="cv">
                 <h2>Curriculum Vitae</h2>
                 <object data="RushinCVfinal.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="RushinCVfinal.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
+            <!-- Repeat the pattern for other items with PDFs -->
+            <li id="internship-certificates">
                 <h2>Internship Certificates</h2>
             </li>
-            <li>
+            <li id="sap-labs">
                 <h2>SAP Labs</h2>
                 <object data="SAP.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="SAP.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
+            <li id="dalvkot-infotech">
                 <h2>DALVKOT InfoTech</h2>
                 <object data="DALVKOT.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="DALVKOT.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
-                <h2>Royale Concorde International School - 2006-2018</h2>
-                <object data="BonafideRCIS.pdf" type="application/pdf">
-                    <p>If you can't see the PDF, <a href="BonafideRCIS.pdf" target="_blank">click here to open it</a>.</p>
+            <li id="rank-certificate">
+                <h2>Rank Certificate</h2>
+                <object data="RankCertificate.pdf" type="application/pdf">
+                    <p>If you can't see the PDF, <a href="RankCertificate.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
-                <h2>CBSE Certificates<br>for Outstanding Academic Performance</h2>
+            
+            <li id="cbse-certificates">
+                <h2>CBSE Certificates for Outstanding Academic Performance</h2>
             </li>
-            <li>
+            <li id="cbse-top-01-percent">
                 <h2>CBSE - top 0.1 percent</h2>
                 <object data="CBSE_zeroPointOne.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="CBSE_zeroPointOne.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
+            <li id="sahodaya">
                 <h2>Sahodaya</h2>
                 <object data="Sahodaya.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="Sahodaya.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
-                <h2>100 percent scholarship<br>Undergrad</h2>
+            <li id="scholarship-undergrad">
+                <h2>100 percent scholarship Undergrad</h2>
             </li>
-            <li>
+            <li id="official-letter-of-scholarship">
                 <h2>Official Letter of Scholarship</h2>
                 <object data="Scholarship.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="Scholarship.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
+            <li id="scholarship-email">
                 <h2>Scholarship Email</h2>
                 <object data="scholarshipEmailPDF.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="scholarshipEmailPDF.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
-                <h2>Rank Certicate</h2>
-                <object data="RankCertificate.pdf" type="application/pdf">
-                    <p>If you can't see the PDF, <a href="RankCertificate.pdf" target="_blank">click here to open it</a>.</p>
-                </object>
-            </li>
-            <li>
+            
+            <li id="volunteer-work">
                 <h2>Volunteer Work</h2>
             </li>
-            <li>
+            <li id="aiesec">
                 <h2>AIESEC</h2>
                 <object data="AIESEC.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="AIESEC.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
+            <li id="sree-bhavani">
                 <h2>Sree Bhavani</h2>
-                <object data="sreeBhavani.pdf" type="application/pdf">
-                    <p>If you can't see the PDF, <a href="sreeBhavani.pdf" target="_blank">click here to open it</a>.</p>
+                <object data="SreeBhavaniRushin.pdf" type="application/pdf">
+                    <p>If you can't see the PDF, <a href="SreeBhavaniRushin.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
-                <h2>Study Certificate</h2>
+            <li id="study-certificates">
+                <h2>Study Certificates</h2>
             </li>
-            <li>
+            <li id="manipal-institute-of-technology">
                 <h2>Manipal Institute of Technology - 2020-2024</h2>
                 <object data="MITbonafide.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="MITbonafide.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
-                <h2>Chaitanya Techno School - 2018-2020<br>Study Certificate</h2>
+            <li id="chaitanya-techno-school">
+                <h2>Chaitanya Techno School - 2018-2020 Study Certificate</h2>
                 <object data="Chaitanya_StudyCertificate.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="Chaitanya_StudyCertificate.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
-            <li>
-                <h2>Royale Concorde International School - 2006-2018<br>Study  Certificate</h2>
+            <li id="rcis-study-certificate">
+                <h2>Royale Concorde International School - 2006-2018 Study Certificate</h2>
                 <object data="RCIS_StudyCertificate.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="RCIS_StudyCertificate.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
+        </ul>
+    </div>
+</body>
+</html>
+
         </ul>
     </div>
 </body>
