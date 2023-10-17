@@ -67,6 +67,22 @@
         padding: 5px 0; /* Reduce padding for a more compact look */
         text-align: left;
     }
+    #back-to-top-btn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    #back-to-top-btn:hover {
+        background-color: #555;
+    }
         
     </style>
 </head>
@@ -203,6 +219,7 @@
             </li>
         </ul>
     </div>
+    <button id="back-to-top-btn">Back to Top</button>
 </body>
 </html>
 
@@ -210,3 +227,18 @@
     </div>
 </body>
 </html>
+<script>
+    window.addEventListener("scroll", function() {
+        var button = document.getElementById("back-to-top-btn");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            button.style.display = "block";
+        } else {
+            button.style.display = "none";
+        }
+    });
+
+    document.getElementById("back-to-top-btn").addEventListener("click", function() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    });
+</script>
