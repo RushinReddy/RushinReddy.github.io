@@ -51,38 +51,43 @@
         }
 
         #table-of-contents {
-        background-color: #f0f0f0;
+        
         padding: 5px;
-        text-align: center;
-    }
-
-    #table-of-contents ul {
-        padding: 0;
         text-align: left;
-        margin: 0; /* Add this line to remove the default margin */
-    }
+        }
 
-    #table-of-contents li {
-        margin: 0;
-        padding: 5px 0; /* Reduce padding for a more compact look */
-        text-align: left;
-    }
-    #back-to-top-btn {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        padding: 10px 20px;
-        background-color: #333;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-    }
+        #table-of-contents ul {
+            padding: 0;
+            text-align: left;
+            margin: 0; /* Add this line to remove the default margin */
+        }
 
-    #back-to-top-btn:hover {
-        background-color: #555;
-    }
+        #table-of-contents li {
+            margin: 0;
+            display: block;
+            
+            padding: 5px;
+            text-align: left;
+            align-items: flex-start;
+    
+
+        }
+        #back-to-top-btn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #back-to-top-btn:hover {
+            background-color: #555;
+        }
         
     </style>
 </head>
@@ -94,16 +99,18 @@
     
     <div class="container">
         <!-- Add links to phone number and email -->
+        <p style="text-align: center;">PLEASE VIEW ON A LAPTOP or A DESKTOP</p>
         <p>Phone: <a href="tel:+918971447721">+91 8971447721</a><br>
         Email: <a href="mailto:rushinreddy@gmail.com">rushinreddy@gmail.com</a><br>
         GitHub: <a href="https://github.com/RushinReddy" target="_blank">https://github.com/RushinReddy</a></p>
     </div>
-    
+    <div class="container">
     <div id="table-of-contents">
         <h2>Table of Contents</h2>
         <ul>
             <li><a href="#cv">Curriculum Vitae</a></li>
             <li><a href="#sap-labs">Internship Certificate - SAP Labs</a></li>
+            <li><a href="#sap-labs-LOR">Recommendation Letter - SAP Labs</a></li>
             <li><a href="#dalvkot-infotech">Internship Certificate - DALVKOT InfoTech</a></li>
             <li><a href="#rank-certificate">Rank Certificate - MIT, Manipal</a></li>
             <li><a href="#ta-email">Teaching Assistant Email - MIT, Manipal</a></li>
@@ -119,6 +126,7 @@
             <li><a href="#rcis-study-certificate">Study Certificate - Royale Concorde International School</a></li>
         </ul>
     </div>
+</div>
 
     <div class="container">
         <ul>
@@ -129,17 +137,25 @@
                 </object>
             </li>
             <!-- Repeat the pattern for other items with PDFs -->
-            <li id="internship-certificates">
-                <h2>Internship Certificates</h2>
-            </li>
+            
             <li id="sap-labs">
-                <h2>SAP Labs</h2>
+                <h2>SAP Labs
+                    <br>Internship Certificate
+                </h2>
                 <object data="SAP.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="SAP.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
             </li>
+            <li id="sap-labs-LOR">
+                <h2>SAP Labs
+                    <br>Recommendation Letter
+                </h2>
+                <object data="LoR_Mukta_pdf.pdf" type="application/pdf">
+                    <p>If you can't see the PDF, <a href="LoR_Mukta_pdf.pdf" target="_blank">click here to open it</a>.</p>
+                </object>
+            </li>
             <li id="dalvkot-infotech">
-                <h2>DALVKOT InfoTech</h2>
+                <h2>DALVKOT InfoTech<br>Internship Certificate</h2>
                 <object data="DALVKOT.pdf" type="application/pdf">
                     <p>If you can't see the PDF, <a href="DALVKOT.pdf" target="_blank">click here to open it</a>.</p>
                 </object>
